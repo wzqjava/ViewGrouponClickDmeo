@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+    <!-- viewgroup分支 -->
+    <com.example.viewgrouponclickdmeo.MyLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+    	<!-- view中的一个分支 -->
+        <Button
+            android:id="@+id/button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello_world" />
+    </com.example.viewgrouponclickdmeo.MyLayout>
+
+</RelativeLayout>
